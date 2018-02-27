@@ -13,3 +13,10 @@ We gaan nu stap voor stap (telkens in een commit) code schrijven dit het volgend
 - [ ] M.b.v. de pijltjestoetsen moeten we de richting kunnen veranderen. Telkens op een pijltjestoets wordt gedrukt, wordt dit gelogd op de console. Als dan op de linkermuisknop wordt gedrukt, bewegen de blokjes in de ingestelde richting.
 - [ ] Met de `r`-toets kunnen we de grootte van elk blokje resetten naar de beginwaarde die meegegeven werd met de constructor. (Het is dus nodig om deze beginwaarden apart bij te houden.)
 - [ ] ...
+
+# Tips
+
+- Een class houdt zijn **gedrag** bij in de toestandsvariabelen.
+- De `update()`-method moet dienen om de **huidige toestand** v.h. `Blokje`-object weer te geven op het scherm.
+- Er wordt door de class `Blokje` op geen enkel ander moment op het scherm getekend. Dit is de verantwoordelijkheid v.d. `update()`-method.
+  
